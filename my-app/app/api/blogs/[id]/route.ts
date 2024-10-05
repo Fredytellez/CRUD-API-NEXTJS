@@ -20,7 +20,7 @@ export const GET = async (req: Request) => {
     }
     return NextResponse.json(
       {
-        message: "OK",
+        message: "OK, you see all posts",
         post,
       },
       {
